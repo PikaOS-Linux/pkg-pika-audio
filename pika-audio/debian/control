@@ -1,0 +1,48 @@
+Source: pika-audio
+Section: metapackages
+Priority: optional
+Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+
+Package: pika-audio-pipewire
+Architecture: all
+Depends: ${misc:Depends},
+    libasound2-plugins,
+    libldacbt-abr2,
+    libldacbt-enc2,
+    libfreeaptx0,
+	gstreamer1.0-alsa,
+	pulseaudio-utils,
+    libspa-0.2-bluetooth,
+    libspa-0.2-jack,
+    pipewire,
+    pipewire-alsa,
+    pipewire-jack,
+    pipewire-pulse,
+    wireplumber,
+    gstreamer1.0-pipewire,
+Description: A Meta package to install Pipewire.
+Conflicts: pika-audio-legacy
+
+Package: pika-audio-legacy
+Architecture: all
+Depends: ${misc:Depends},
+    libasound2-plugins,
+    libldacbt-abr2,
+    libldacbt-enc2,
+    libfreeaptx0,
+	gstreamer1.0-alsa,
+	pulseaudio-utils,
+	pulseaudio,
+	pulseaudio-dlna,
+	pulseaudio-equalizer,
+	pulseaudio-module-bluetooth,
+	pulseaudio-module-jack,
+	pulseaudio-module-raop,
+	pulseaudio-module-zeroconf,
+	gstreamer1.0-pulseaudio,
+	pipewire-media-session
+Description: A Meta package to install Pulseaudio, jack, alsa, and Pipewire video.
+Conflicts: pika-audio-pipewire
