@@ -43,6 +43,7 @@ Depends: ${misc:Depends},
     pulseaudio-module-raop,
     pulseaudio-module-zeroconf,
     gstreamer1.0-pulseaudio,
+    pipewire-libcamera,
     pipewire-media-session
 Description: A Meta package to install Pulseaudio, jack, alsa, and Pipewire video.
 Conflicts: pika-audio-pipewire
