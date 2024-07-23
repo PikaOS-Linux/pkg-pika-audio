@@ -18,7 +18,7 @@ cd ./pika-audio
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p pika-baseos_1.0.3 || echo "dh-make didn't go clean"
+LOGNAME=root dh_make --createorig -y -l -p pika-audio_1.0.3 || echo "dh-make didn't go clean"
 dpkg-buildpackage --no-sign
 
 # Move the debs to output
