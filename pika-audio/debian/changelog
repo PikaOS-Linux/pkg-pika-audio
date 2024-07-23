@@ -1,24 +1,30 @@
+pika-audio (1.0.3-101pika1) pika; urgency=medium
+
+  * Just a rebuild for PikaOS 4
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 21 Apr 2017 13:20:00 -0600
+
 pika-audio (1.0.3-100pika1) pikauwu; urgency=medium
 
   * Just a rebuild for pikauwu
 
- -- Jeremy Soller <jeremy@system76.com>  Thu, 21 Apr 2017 13:20:00 -0600
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 21 Apr 2017 13:20:00 -0600
 
 pika-audio (1.0.2) lunar; urgency=medium
 
   * Just a rebuild for lunar
 
- -- Jeremy Soller <jeremy@system76.com>  Thu, 21 Apr 2017 13:20:00 -0600
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 21 Apr 2017 13:20:00 -0600
 
 pika-audio (1.0.1) lunar; urgency=medium
 
   * Just a rebuild for lunar
 
- -- Jeremy Soller <jeremy@system76.com>  Thu, 21 Apr 2017 13:20:00 -0600
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 21 Apr 2017 13:20:00 -0600
 
 pika-audio (1.0.0) kinetic; urgency=medium
 
   * First release
 
- -- Jeremy Soller <jeremy@system76.com>  Thu, 21 Apr 2017 13:20:00 -0600
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 21 Apr 2017 13:20:00 -0600
 
